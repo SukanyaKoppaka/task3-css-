@@ -1,0 +1,471 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+body{
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKiAf7H17IPv98hPrDRxSSq40-D2fpNnoSbJjc1GSkaw&s=10");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+.header{
+    background-color:firebrick;
+    color:white;
+    text-align:center;
+    padding:3vh;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+
+.header h1{
+    font-size:3vw;
+    text-decoration:underline;
+    text-shadow:3px 3px 5px yellow;
+}
+
+
+.header h2{
+    font-size:2vw;
+    margin-top:1vh;
+}
+
+
+
+.details{
+    width:50vw;
+    background-color:cornsilk;
+    border:0.3vw solid brown;
+    margin:5vh auto;
+    padding:3vh;
+    text-align:center;
+    position:relative;
+}
+
+
+.details h3{
+    font-size:2vw;
+    color:chocolate;
+    margin-top:2vh;
+}
+
+
+.details p{
+    font-size:1.5vw;
+    margin-top:1vh;
+}
+
+
+
+
+.special{
+    width:40vw;
+    background-color:khaki;
+    border:0.3vw solid black;
+    margin:3vh auto;
+    padding:3vh;
+    text-align:center;
+}
+
+
+.special h2{
+    font-size:2vw;
+}
+
+
+.special p{
+    font-size:1.5vw;
+    margin-top:2vh;
+}
+
+
+
+
+.menu{
+    text-align:center;
+    margin-top:5vh;
+    position:relative;
+}
+
+
+.menubtn{
+
+    width:20vw;
+    padding:2vh;
+
+    background-color:seagreen;
+    color:white;
+
+    border:0.3vw solid white;
+
+    font-size:2vw;
+
+    cursor:pointer;
+
+}
+
+
+
+.dropdown{
+
+    display:inline-block;
+    position:relative;
+
+}
+
+
+
+.dropdown-content{
+
+    position:absolute;
+
+    top:100%;
+    left:0;
+
+    width:20vw;
+
+    background-color:white;
+
+    display:none;
+
+    border:0.2vw solid black;
+
+}
+
+
+
+.dropdown-content a{
+
+    display:block;
+
+    padding:2vh;
+
+    text-decoration:none;
+
+    color:black;
+
+    font-size:1.5vw;
+
+}
+
+
+
+.dropdown-content a:hover{
+
+    background-color:lightgreen;
+
+}
+
+
+
+.dropdown:hover .dropdown-content{
+
+    display:block;
+
+}
+
+
+.tooltip{
+
+    width:12vw;
+
+    margin:15vh auto 5vh;
+
+    background-color:black;
+
+    color:white;
+
+    padding:2vh;
+
+    text-align:center;
+
+    position:relative;
+
+    font-size:1.5vw;
+
+}
+
+
+.tooltiptext{
+
+    position:absolute;
+
+    left:110%;
+
+    top:0;
+
+    background-color:black;
+
+    color:white;
+
+    padding:1vh;
+
+    width:15vw;
+
+    visibility:hidden;
+
+}
+
+
+.tooltip:hover .tooltiptext{
+
+    visibility:visible;
+
+}
+
+
+
+
+
+
+
+
+
+.footer{
+
+    position:fixed;
+
+    bottom:0;
+
+    width:100vw;
+
+    background-color:black;
+
+    color:white;
+
+    text-align:center;
+
+    padding:2vh;
+
+    z-index:1000;
+
+}
+
+
+
+
+
+
+
+.vegheader{
+
+    background-color:forestgreen;
+
+    color:white;
+
+    text-align:center;
+
+    padding:2vh;
+
+    position:sticky;
+
+    top:0;
+
+    z-index:1000;
+
+}
+
+
+
+.vegheader h1{
+
+    font-size:3vw;
+
+}
+
+
+
+.vegheader h2{
+
+    font-size:2vw;
+
+}
+
+
+
+.homebtn{
+
+    position:absolute;
+
+    right:3vw;
+
+    top:3vh;
+
+    background-color:lightcyan;
+
+    color:black;
+
+    padding:1vh 2vw;
+
+    text-decoration:none;
+
+    border:0.2vw solid black;
+
+}
+
+
+
+
+
+
+.starter{
+
+    width:28vw;
+
+    background-color:ivory;
+
+    border:0.3vw solid black;
+
+    padding:2vh;
+
+    margin-top:5vh;
+
+    margin-left:2vw;
+
+    text-align:center;
+
+    position:relative;
+
+}
+
+
+
+.biryani{
+
+    width:28vw;
+
+    background-color:wheat;
+
+    border:0.3vw solid black;
+
+    padding:2vh;
+
+    text-align:center;
+
+    margin-left:35vw;
+
+    margin-top:-84vh;
+
+    position:relative;
+
+}
+
+
+
+.others{
+
+    width:28vw;
+
+    background-color:aliceblue;
+
+    border:0.3vw solid black;
+
+    padding:2vh;
+
+    text-align:center;
+
+    margin-left:68vw;
+
+    margin-top:-85vh;
+
+    position:relative;
+
+}
+
+
+
+.starter img,
+.biryani img,
+.others img{
+
+    width:18vw;
+
+    height:18vh;
+
+    margin-top:2vh;
+
+    border:0.2vw solid black;
+
+}
+
+
+
+.starter h2,
+.biryani h2,
+.others h2{
+
+    font-size:2vw;
+
+}
+
+
+
+.starter p,
+.biryani p,
+.others p{
+
+    font-size:1.5vw;
+
+    font-weight:bold;
+
+    margin-top:1vh;
+
+}
+
+
+
+
+
+.specialveg{
+
+    width:40vw;
+
+    background-color:khaki;
+
+    border:0.3vw solid black;
+
+    text-align:center;
+
+    padding:3vh;
+
+    margin-top:5vh;
+
+    margin-left:30vw;
+
+    position:relative;
+
+}
+
+
+
+.specialveg img{
+
+    width:22vw;
+
+    height:22vh;
+
+    border:0.2vw solid black;
+
+    margin-top:2vh;
+
+}
+
+
+
+.specialveg h3{
+
+    font-size:2vw;
+
+    margin-top:2vh;
+
+}
